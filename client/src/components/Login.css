@@ -1,0 +1,292 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    border: 1px solid #490431;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .login-heading {
+    color: rgb(128, 0, 43);
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    color: #cfc5c5;
+    width: 90%;
+    padding: 10px;
+    background-color: #3d162d;
+    margin-bottom: 20px;
+    border: 1px solid #610843;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    background-color: rgb(128, 0, 43);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #620637;
+  }
+
+  .logoverlay {
+    position: absolute;
+    border-color: #e6e1e5;
+    top: 40%;
+    left: 50%;
+    width: 30%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    ; /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Add blur effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+
+  .signoverlay {
+    position: absolute;
+    border-color: #e6e1e5;
+    top: 40%;
+    left: 50%;
+    width: 30%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    ; /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Add blur effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+
+  .login-options{
+    color: #111011;
+    font-size: small;
+    cursor: pointer;
+  }
+
+  .placeholder-color{
+    color: white;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #3d162d;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: -650px;
+  }
+  
+  .logoverlay2 {
+    position: absolute;
+    border-color: #e6e1e5;
+    top: 40%;
+    left: 30%;
+    width: 30%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    ; /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+
+  .logoverlay3 {
+    position: absolute;
+    border-color: #e6e1e5;
+    top: 40%;
+    left: 30%;
+    width: 30%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    ; /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+  .logoverlay4 {
+    position: absolute;
+    border-color: #e6e1e5;
+    top: 40%;
+    left: 50%;
+    width: 50%;
+    height: 210%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    ; /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+  }
+  .login-box2 {
+    border: 1px solid #490431;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .login-box3 {
+    border: 1px solid #490431;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin-top: 500px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .outputResult {
+    font-size: 25px;
+  }
+  .outputResult2 {
+    font-size: 15px;
+  }
+  .become-button{
+    color:#fbf4f9;
+    background-color: #762a5c;
+  }
+
+  .comments-container {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(253, 221, 253, 0.8); /* Add a semi-transparent white background */
+    padding: 50px;
+    border-radius: 10px;
+
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    z-index: 0;
+  }
+  
+  
+  .comment {
+    text-align: right; /* Align comment text to the right side */
+    margin-bottom: 10px; /* Add margin between comments */
+  }
+  .username {
+    width: 150px;
+  }
+  .expert-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expert-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styling as needed */
+  .booking-container {
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+  
+  .expert-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expert-box li {
+    list-style: none;
+  }
+  
+  .expert-box strong {
+    font-weight: bold;
+  }
+  
+  /* Add more styling as needed */
+    
